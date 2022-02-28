@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    </head>
+    <style>
+        button {
+            background-color: rgb(53, 137, 139); 
+            color:black;
+            font-size: 50px;
+            border: 2px solid rgb(255, 2, 23);
+            width: 650px;
+            padding: 20px;
+            margin-top:10px;
+        }
+    </style>
+    <body>
+        <form action="/change?" method="get" target="hiddenFrame">
+            <table align=center>
+                <tr>
+                    <td><button name="channel" value="1">1. Comcast XiD-C</button></td>
+                    <td><button name="channel" value="2">2. Comcast Xg2-v2</button></td>
+                </tr>
+                <tr>
+                    <td><button name="channel" value="3">3. Comcast Xi6 (X1)</button></td>
+                    <td><button name="channel" value="10">10. Comcast Xi6 (Flex)</button></td>
+                </tr>
+                <tr>
+                    <td><button name="channel" value="5">5. Comcast XG1-P</button></td>
+                    <td><button name="channel" value="11">11. XiOne</button></td>
+                </tr>
+                <tr>
+                    <td><button name="channel" value="7">7. Xbox Series S</button></td>
+                    <td><button name="channel" value="8">8. XBOX One X</button></td>
+                </tr>
+                <tr>
+                    <td><button name="channel" value="9">9. Roku</button></td>
+                    <td><button name="channel" value="6">6. Playstation 3</button></td>
+                </tr>
+            </table>
+        </form>
+        <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
+    </body>
+</html>
